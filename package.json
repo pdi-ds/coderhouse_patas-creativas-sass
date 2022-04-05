@@ -1,0 +1,25 @@
+{
+    "name": "coderhouse_patas-creativas-sass",
+    "version": "1.0.0",
+    "description": "Repo alterno del curso de desarrollo web de CoderHouse, hecho con SASS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass --include-path scss scss/style.scss css/stlye.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pdi-ds/coderhouse_patas-creativas-sass.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pdi-ds/coderhouse_patas-creativas-sass/issues"
+    },
+    "homepage": "https://github.com/pdi-ds/coderhouse_patas-creativas-sass#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1",
+        "nodemon": "^2.0.15"
+    }
+}
