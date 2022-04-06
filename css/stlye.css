@@ -102,9 +102,6 @@ body {
   -webkit-animation: fade-in 0.5s ease-in-out both;
   animation: fade-in 0.5s ease-in-out both; }
 
-nav {
-  border-bottom: solid 1px #524c44; }
-
 ul {
   list-style-type: none; }
 
@@ -121,6 +118,9 @@ input {
 
 footer {
   border-top: solid 1px #524c44; }
+
+nav {
+  border-bottom: solid 1px #524c44; }
 
 .container {
   flex-grow: 1;
