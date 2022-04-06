@@ -190,28 +190,23 @@ footer {
 
 nav {
   border-bottom: solid 1px #524c44; }
-
-.nav-content_wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 15px 30px 15px 30px; }
-
-.logo {
-  display: inline-block;
-  height: 40px;
-  width: auto; }
-
-.nav-link_wrapper {
-  display: flex;
-  flex-direction: row; }
-
-.nav-link {
-  display: inline-block; }
-
-.nav-link + .nav-link {
-  margin-left: 27px; }
+  nav .nav-content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px; }
+    nav .nav-content_wrapper .logo {
+      display: inline-block;
+      height: 40px;
+      width: auto; }
+    nav .nav-content_wrapper .nav-link_wrapper {
+      display: flex;
+      flex-direction: row; }
+      nav .nav-content_wrapper .nav-link_wrapper .nav-link {
+        display: inline-block; }
+      nav .nav-content_wrapper .nav-link_wrapper .nav-link + .nav-link {
+        margin-left: 27px; }
 
 .container {
   flex-grow: 1;
@@ -286,39 +281,32 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   min-height: 100vh; }
-
-.hero-content_wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.hero-text_wrapper {
-  display: flex;
-  flex-direction: column; }
-
-.hero-h1 {
-  margin-bottom: 30px;
-  max-width: 15ch; }
-
-.hero-p {
-  margin-bottom: 50px;
-  max-width: 34ch; }
-
-.hero-buttons_wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 300px; }
-
-.hero-img {
-  display: relative;
-  height: 100%;
-  width: 100%; }
-
-.hero-img_mobile {
-  clip-path: circle();
-  display: none;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover; }
+  .section-hero .hero-content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .section-hero .hero-content_wrapper .hero-text_wrapper {
+      display: flex;
+      flex-direction: column; }
+      .section-hero .hero-content_wrapper .hero-text_wrapper .hero-h1 {
+        margin-bottom: 30px;
+        max-width: 15ch; }
+      .section-hero .hero-content_wrapper .hero-text_wrapper .hero-p {
+        margin-bottom: 50px;
+        max-width: 34ch; }
+      .section-hero .hero-content_wrapper .hero-text_wrapper .hero-buttons_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 300px; }
+    .section-hero .hero-content_wrapper .hero-img {
+      display: relative;
+      height: 100%;
+      width: 100%; }
+    .section-hero .hero-content_wrapper .hero-img_mobile {
+      clip-path: circle();
+      display: none;
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover; }
