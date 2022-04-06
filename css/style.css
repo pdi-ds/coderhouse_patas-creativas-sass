@@ -95,6 +95,72 @@ h6 {
   font-size: 11px;
   font-weight: 400; }
 
+@media screen and (max-width: 767px) {
+  /* Font system */
+  h1 {
+    color: var(--text-color);
+    font-size: 32px;
+    font-weight: 300;
+    margin: 15px 0 40px 0; }
+  h2 {
+    color: var(--text-color);
+    font-size: 29px;
+    font-weight: 300;
+    margin: 15px 0 40px 0; }
+  h3 {
+    color: var(--text-color);
+    font-size: 26px;
+    font-weight: 400;
+    margin: 15px 0 40px 0; }
+  h4 {
+    color: var(--text-color);
+    font-size: 23px;
+    font-weight: 400;
+    margin: 15px 0 40px 0; }
+  h5 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 40px 0; }
+  .false-h5 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 40px 0; }
+  h6 {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0 40px 0; }
+  .subtitle1 {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600; }
+  .body1 {
+    color: var(--text-color-alternative);
+    font-size: 16px;
+    font-weight: 400; }
+  .subtitle2 {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600; }
+  .body2 {
+    color: var(--text-color-alternative);
+    font-size: 14px;
+    font-weight: 400; }
+  .button {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600; }
+  .caption {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 400; }
+  .overline {
+    color: var(--text-color);
+    font-size: 11px;
+    font-weight: 400; } }
+
 html {
   background-color: #29241d; }
 
@@ -107,6 +173,9 @@ ul {
 
 a {
   color: #918e7e; }
+  a:hover {
+    color: #f8f8df;
+    transition: color 0.5s; }
 
 input {
   background-color: #524c44;
@@ -149,7 +218,7 @@ nav {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  max-width: calc(100vw -10%);
+  max-width: calc(100vw - 10%);
   position: static;
   width: auto; }
 
@@ -161,6 +230,25 @@ nav {
   display: inline-block;
   padding: 10px 25px 10px 25px;
   text-align: center; }
+  .cta-1:hover {
+    -webkit-animation: shadow-drop-center 0.4s ease-in-out both;
+    animation: shadow-drop-center 0.4s ease-in-out both; }
+
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35); } }
+
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35); } }
 
 .cta-2 {
   border: solid;
@@ -171,3 +259,66 @@ nav {
   display: inline-block;
   padding: 10px 25px 10px 25px;
   text-align: center; }
+  .cta-2:hover {
+    background-color: #f8f8df;
+    color: #29241d;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+    -webkit-animation: shadow-drop-center 0.4s ease-in-out both;
+    animation: shadow-drop-center 0.4s ease-in-out both; }
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.section-hero {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh; }
+
+.hero-content_wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.hero-text_wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.hero-h1 {
+  margin-bottom: 30px;
+  max-width: 15ch; }
+
+.hero-p {
+  margin-bottom: 50px;
+  max-width: 34ch; }
+
+.hero-buttons_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px; }
+
+.hero-img {
+  display: relative;
+  height: 100%;
+  width: 100%; }
+
+.hero-img_mobile {
+  clip-path: circle();
+  display: none;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover; }
