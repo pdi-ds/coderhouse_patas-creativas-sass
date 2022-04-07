@@ -23,3 +23,40 @@ nav {
         }
     }
 }
+
+// Tablet breakpoint
+@media screen and (max-width: 991px) {}
+
+// Mobile landscape breakpoint
+@media screen and (max-width: 767px) {
+    nav {
+        border-bottom: solid 1px $bg-color-alternative;
+        .nav-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 15px 30px 15px 30px;
+            .logo {
+                display: inline-block;
+                height: 40px;
+                width: auto;
+            }
+            .nav-link_wrapper {
+                display: flex;
+                flex-direction: column;
+                margin: 30px 0 30px 0;
+                .nav-link {
+                    display: block;
+                }
+                .nav-link+.nav-link {
+                    margin-left: 0px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 479px) {}
