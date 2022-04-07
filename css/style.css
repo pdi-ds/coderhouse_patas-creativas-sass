@@ -394,6 +394,38 @@ nav {
         border-width: 0px;
         display: inline-flex; } }
 
+.footer-content_wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .footer-content_wrapper .footer-social {
+    height: 32px;
+    margin: 20px 15px 20px 15px;
+    width: auto; }
+
+@media screen and (max-width: 991px) {
+  .footer-content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .footer-content_wrapper .footer-social {
+      height: 32px;
+      margin: 20px 15px 20px 15px;
+      width: auto; } }
+
+@media screen and (max-width: 767px) {
+  .footer-content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .footer-content_wrapper .footer-social {
+      height: 32px;
+      margin: 20px 15px 20px 15px;
+      width: auto; } }
+
 .section-hero {
   align-items: center;
   display: flex;
