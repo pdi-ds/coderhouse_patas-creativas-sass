@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Servicios - Patas Creativas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-content_wrapper">
+                    <a href="../index.html">
+                        <img src="../img/logo.svg" alt="logo patas creativas" class="logo">
+                    </a>
+                    <div class="nav-link_wrapper">
+                        <ul>
+                            <li class="nav-link body2"><a href="mision.html">misión</a></li>
+                            <li class="nav-link body2"><a href="servicios.html">servicios</a></li>
+                            <li class="nav-link body2"><a href="muestras.html">muestras</a></li>
+                            <li class="nav-link body2"><a href="contacto.html">contácto</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button cta-2">Descarga</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section-contact">
+        <div class="container">
+            <div class="contact-content_wrapper">
+                <h2 class="contact-h2">¿Tenés alguna idea en mente?</h2>
+                <div class="contact-form_wrapper">
+                    <form action="POST">
+                        <div class="nombres">
+                            <input type="text" placeholder="Nombre" class="nombre" name="nombre" id="nombre" required="required" aria-required="true">
+                            <input type="text" placeholder="Apellido" class="apellido" name="apellido" id="apellido" required="required" aria-required="true">
+                        </div>
+                        <div class="datos">
+                            <input type="email" placeholder="Correo" class="correo" name="correo" id="correo" required="required" aria-required="true">
+                            <input type="number" placeholder="Teléfono" class="telefono" name="telefono" id="telefono" required="required" aria-required="true">
+                        </div>
+                        <div>
+                            <label for="servicios"><h5>¿Que servicios se consultan?</h5></label>
+                            <div class="checkbox_wrapper">
+                                <div>
+                                    <input type="checkbox" class="servicios" name="servicios[]" id="branding" value="branding">
+                                    <label for="servicios-0" class="body2">Branding</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="servicios" name="servicios[]" id="ilustracion" value="ilustracion">
+                                    <label for="servicios-1" class="body2">Ilustración</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="servicios" name="servicios[]" id="iconografia" value="iconografia">
+                                    <label for="servicios-2" class="body2">Iconografía</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="servicios" name="servicios[]" id="animacion" value="animacion">
+                                    <label for="servicios-1" class="body2">Animación</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <textarea type="textarea" placeholder="Especificar más datos..." name="extra" id="extra" required="required" aria-required="true"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" class="button cta-1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="position: fixed; width: 100%; bottom: 0;">
+        <div class="container">
+            <div class="footer-content_wrapper">
+                <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook_logo.svg" alt="facebook logo" class="footer-social"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram_logo.svg" alt="instagram logo" class="footer-social"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="../img/linkedin_logo.svg" alt="linkedin logo" class="footer-social"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
