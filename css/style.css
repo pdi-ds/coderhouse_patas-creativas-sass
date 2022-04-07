@@ -309,6 +309,86 @@ nav {
   100% {
     opacity: 1; } }
 
+.section-newsletter {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 50vh; }
+  .section-newsletter .newsletter-content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .section-newsletter .newsletter-content_wrapper .newsletter-h2 {
+      margin-bottom: 80px;
+      text-align: center; }
+  .section-newsletter .newsletter-form_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .section-newsletter .newsletter-form_wrapper .newsletter-form_item {
+      background-color: #524c44;
+      border-radius: 500px;
+      border-width: 0px;
+      display: inline-flex; }
+
+@media screen and (max-width: 991px) {
+  .section-newsletter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 50vh; }
+    .section-newsletter .newsletter-content_wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section-newsletter .newsletter-content_wrapper .newsletter-h2 {
+        margin-bottom: 80px;
+        text-align: center; }
+    .section-newsletter .newsletter-form_wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section-newsletter .newsletter-form_wrapper .newsletter-form_item {
+        background-color: #524c44;
+        border-radius: 500px;
+        border-width: 0px;
+        display: inline-flex; } }
+
+@media screen and (max-width: 767px) {
+  .section-newsletter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 50vh; }
+    .section-newsletter .newsletter-content_wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section-newsletter .newsletter-content_wrapper .newsletter-h2 {
+        margin-bottom: 80px;
+        text-align: center; }
+    .section-newsletter .newsletter-form_wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section-newsletter .newsletter-form_wrapper .newsletter-form_item {
+        background-color: #524c44;
+        border-radius: 500px;
+        border-width: 0px;
+        display: inline-flex; } }
+
 .section-hero {
   align-items: center;
   display: flex;
@@ -571,3 +651,93 @@ nav {
             margin: 0 15px 0 0;
             object-fit: cover;
             width: 38px; }
+
+@media screen and (max-width: 991px) {
+  .section-review {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh; }
+    .section-review .review-content_wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section-review .review-content_wrapper .review-h2 {
+        margin-bottom: 100px;
+        text-align: center; }
+      .section-review .review-content_wrapper .review-card_wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; }
+        .section-review .review-content_wrapper .review-card_wrapper .review-card_item {
+          align-items: stretch;
+          background-color: var(--bg-color-alternative);
+          border-radius: 40px;
+          display: flex;
+          flex-direction: column;
+          height: 200px;
+          margin: 20px;
+          padding: 20px;
+          width: 285px; }
+          .section-review .review-content_wrapper .review-card_wrapper .review-card_item .review-text {
+            width: 25ch; }
+          .section-review .review-content_wrapper .review-card_wrapper .review-card_item .review-person_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            margin-top: auto; }
+            .section-review .review-content_wrapper .review-card_wrapper .review-card_item .review-person_wrapper .review-img {
+              clip-path: circle();
+              height: 38px;
+              margin: 0 15px 0 0;
+              object-fit: cover;
+              width: 38px; } }
+
+@media screen and (max-width: 767px) {
+  .section-review {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh; }
+    .section-review .review-content_wrapper {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section-review .review-content_wrapper .review-h2 {
+        margin-bottom: 100px;
+        text-align: center; }
+      .section-review .review-content_wrapper .review-card_wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; }
+        .section-review .review-content_wrapper .review-card_wrapper .review-card_item {
+          align-items: stretch;
+          background-color: #524c44;
+          border-radius: 40px;
+          display: flex;
+          flex-direction: column;
+          height: 200px;
+          margin: 20px;
+          padding: 20px;
+          width: 285px; }
+          .section-review .review-content_wrapper .review-card_wrapper .review-card_item .review-text {
+            width: 25ch; }
+          .section-review .review-content_wrapper .review-card_wrapper .review-card_item .review-person_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            margin-top: auto; }
+            .section-review .review-content_wrapper .review-card_wrapper .review-card_item .review-person_wrapper .review-img {
+              clip-path: circle();
+              height: 38px;
+              margin: 0 15px 0 0;
+              object-fit: cover;
+              width: 38px; } }
