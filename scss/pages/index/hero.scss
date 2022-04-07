@@ -1,0 +1,96 @@
+.section-hero {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    .hero-content_wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .hero-text_wrapper {
+            display: flex;
+            flex-direction: column;
+            .hero-h1 {
+                margin-bottom: 30px;
+                max-width: 15ch;
+            }
+            .hero-p {
+                margin-bottom: 50px;
+                max-width: 34ch;
+            }
+            .hero-buttons_wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 300px;
+            }
+        }
+        .hero-img {
+            display: relative;
+            height: 100%;
+            width: 100%;
+        }
+        .hero-img_mobile {
+            clip-path: circle();
+            display: none;
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+// Tablet breakpoint
+@media screen and (max-width: 991px) {
+    .section-hero {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 5% 0 5% 0;
+        .hero-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .hero-text_wrapper {
+                display: flex;
+                flex-direction: column;
+                order: 2;
+                .hero-h1 {
+                    margin-bottom: 30px;
+                    max-width: 15ch;
+                }
+                .hero-p {
+                    margin-bottom: 50px;
+                    max-width: 34ch;
+                }
+                .hero-buttons_wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 300px;
+                }
+            }
+            .hero-img {
+                display: none;
+                height: 100%;
+                width: 100%;
+            }
+            .hero-img_mobile {
+                clip-path: circle();
+                display: relative;
+                display: block;
+                height: 100%;
+                margin: 0 0 5% 0;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+}
