@@ -17,7 +17,6 @@
         }
         .services-cards_wrapper {
             display: grid;
-            /* Dejo la grilla en 3 ya que no puedo resolver el problema del iframe */
             grid-template-columns: repeat(3, 1fr);
             width: 100%;
             .services-card_item {
