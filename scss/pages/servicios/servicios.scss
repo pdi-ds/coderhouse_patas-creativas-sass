@@ -30,21 +30,32 @@
 
 // Mobile lanscape breakpoint
 @media screen and (max-width: 767px) {
-    .servicios-card_item {
+    .section-servicios {
+        align-items: center;
         display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-        .servicios-card_text {
+        flex-direction: row;
+        justify-content: center;
+        margin: 5% 0 5% 0;
+        .servicios-h2 {
+            text-align: center;
+        }
+        .servicios-card_item {
             display: flex;
             flex-direction: column;
             height: 100%;
             padding: 50px 0 50px 0;
             width: 100%;
-        }
-        .servicios-img {
-            height: auto;
-            width: auto;
+            .servicios-card_text {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                padding: 50px 0 50px 0;
+                width: 100%;
+            }
+            .servicios-img {
+                height: auto;
+                width: auto;
+            }
         }
     }
 }

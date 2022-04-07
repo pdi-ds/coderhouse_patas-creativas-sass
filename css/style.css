@@ -835,20 +835,29 @@ nav {
       width: 615px; }
 
 @media screen and (max-width: 767px) {
-  .servicios-card_item {
+  .section-servicios {
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 100%; }
-    .servicios-card_item .servicios-card_text {
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% 0 5% 0; }
+    .section-servicios .servicios-h2 {
+      text-align: center; }
+    .section-servicios .servicios-card_item {
       display: flex;
       flex-direction: column;
       height: 100%;
       padding: 50px 0 50px 0;
       width: 100%; }
-    .servicios-card_item .servicios-img {
-      height: auto;
-      width: auto; } }
+      .section-servicios .servicios-card_item .servicios-card_text {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 50px 0 50px 0;
+        width: 100%; }
+      .section-servicios .servicios-card_item .servicios-img {
+        height: auto;
+        width: auto; } }
 
 .section-projects {
   margin: 5% 0 5% 0; }
