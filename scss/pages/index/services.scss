@@ -17,6 +17,7 @@
         }
         .services-cards_wrapper {
             display: grid;
+            /* Dejo la grilla en 3 ya que no puedo resolver el problema del iframe */
             grid-template-columns: repeat(3, 1fr);
             width: 100%;
             .services-card_item {
@@ -34,3 +35,88 @@
         }
     }
 }
+
+// Tablet breakpoint
+@media screen and (max-width: 991px) {
+    .section-services {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 5% 0 5% 0;
+        .services-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .services-h2 {
+                margin-bottom: 80px;
+                max-width: 27ch;
+                text-align: center;
+            }
+            .services-cards_wrapper {
+                display: grid;
+                grid-template-columns: 1fr;
+                width: 100%;
+                .services-card_item {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .services-img {
+                    border-radius: 50px;
+                    height: 318px;
+                    object-fit: cover;
+                    overflow: hidden;
+                    width: 285px;
+                }
+            }
+        }
+    }
+}
+
+// Mobile landscape breakpoint
+@media screen and (max-width: 767px) {
+    .section-services {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 5% 0 5% 0;
+        .services-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .services-h2 {
+                margin-bottom: 80px;
+                max-width: 27ch;
+                text-align: center;
+            }
+            .services-cards_wrapper {
+                display: grid;
+                grid-template-columns: 1fr;
+                width: 100%;
+                .services-card_item {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    .services-img {
+                        border-radius: 50px;
+                        height: 318px;
+                        object-fit: cover;
+                        overflow: hidden;
+                        width: 285px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 479px) {}
