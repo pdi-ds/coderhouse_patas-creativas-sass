@@ -49,3 +49,116 @@
         }
     }
 }
+
+// Tablet breakpoint
+@media screen and (max-width: 991px) {
+    .section-review {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        .review-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .review-h2 {
+                margin-bottom: 100px;
+                text-align: center;
+            }
+            .review-card_wrapper {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                .review-card_item {
+                    align-items: stretch;
+                    background-color: var(--bg-color-alternative);
+                    border-radius: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 200px;
+                    margin: 20px;
+                    padding: 20px;
+                    width: 285px;
+                    .review-text {
+                        width: 25ch;
+                    }
+                    .review-person_wrapper {
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: auto;
+                        .review-img {
+                            clip-path: circle();
+                            height: 38px;
+                            margin: 0 15px 0 0;
+                            object-fit: cover;
+                            width: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile landscape breakpoint
+@media screen and (max-width: 767px) {
+    .section-review {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 100vh;
+        .review-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .review-h2 {
+                margin-bottom: 100px;
+                text-align: center;
+            }
+            .review-card_wrapper {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                .review-card_item {
+                    align-items: stretch;
+                    background-color: $bg-color-alternative;
+                    border-radius: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 200px;
+                    margin: 20px;
+                    padding: 20px;
+                    width: 285px;
+                    .review-text {
+                        width: 25ch;
+                    }
+                    .review-person_wrapper {
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: auto;
+                        .review-img {
+                            clip-path: circle();
+                            height: 38px;
+                            margin: 0 15px 0 0;
+                            object-fit: cover;
+                            width: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 479px) {}
