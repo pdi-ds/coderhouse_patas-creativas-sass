@@ -7,3 +7,24 @@
     position: static;
     width: auto;
 }
+
+// Tablet breakpoint
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: calc(100vw - 5%);
+    }
+}
+
+// Mobile landscape breakpoint
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: calc(100vw - 5%);
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 479px) {
+    .container {
+        max-width: calc(100vw - 2%);
+    }
+}
