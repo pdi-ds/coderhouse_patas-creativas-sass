@@ -1,0 +1,101 @@
+.section-newsletter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 50vh;
+    .newsletter-content_wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .newsletter-h2 {
+            margin-bottom: 80px;
+            text-align: center;
+        }
+    }
+    .newsletter-form_wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .newsletter-form_item {
+            background-color: $bg-color-alternative;
+            border-radius: 500px;
+            border-width: 0px;
+            display: inline-flex;
+        }
+    }
+}
+
+// Tablet breakpoint
+@media screen and (max-width: 991px) {
+    .section-newsletter {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 50vh;
+        .newsletter-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .newsletter-h2 {
+                margin-bottom: 80px;
+                text-align: center;
+            }
+        }
+        .newsletter-form_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .newsletter-form_item {
+                background-color: $bg-color-alternative;
+                border-radius: 500px;
+                border-width: 0px;
+                display: inline-flex;
+            }
+        }
+    }
+}
+
+// Mobile landscape breakpoint
+@media screen and (max-width: 767px) {
+    .section-newsletter {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 50vh;
+        .newsletter-content_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .newsletter-h2 {
+                margin-bottom: 80px;
+                text-align: center;
+            }
+        }
+        .newsletter-form_wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .newsletter-form_item {
+                background-color: $bg-color-alternative;
+                border-radius: 500px;
+                border-width: 0px;
+                display: inline-flex;
+            }
+        }
+    }
+}
+
+// Mobile breakpoint
+@media screen and (max-width: 479px) {}
