@@ -1,0 +1,17 @@
+.section-start_mision {
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1508163834378-c10174deaf8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80);
+    background-position: 10% 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    object-fit: cover;
+    .start-h2 {
+        max-width: 20ch;
+    }
+    .start-body {
+        max-width: 55ch;
+    }
+}
