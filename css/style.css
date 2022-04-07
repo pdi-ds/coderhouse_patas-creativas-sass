@@ -217,6 +217,18 @@ nav {
   position: static;
   width: auto; }
 
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: calc(100vw - 5%); } }
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: calc(100vw - 5%); } }
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: calc(100vw - 2%); } }
+
 .cta-1 {
   background-color: #cc8548;
   border-radius: 500px;
@@ -352,3 +364,34 @@ nav {
         margin: 0 0 5% 0;
         object-fit: cover;
         width: 100%; } }
+
+.section-services {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh; }
+  .section-services .services-content_wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .section-services .services-content_wrapper .services-h2 {
+      margin-bottom: 80px;
+      max-width: 27ch;
+      text-align: center; }
+    .section-services .services-content_wrapper .services-cards_wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%; }
+      .section-services .services-content_wrapper .services-cards_wrapper .services-card_item {
+        align-items: center;
+        display: flex;
+        flex-direction: column; }
+        .section-services .services-content_wrapper .services-cards_wrapper .services-card_item .services-img {
+          border-radius: 50px;
+          height: 318px;
+          object-fit: cover;
+          overflow: hidden;
+          width: 285px; }
