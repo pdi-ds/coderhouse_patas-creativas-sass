@@ -885,3 +885,36 @@ nav {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     grid-template-columns: repeat(1, 1fr); } }
+
+.contact-content_wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 83vh;
+  justify-content: center; }
+  .contact-content_wrapper .contact-h2 {
+    text-align: center; }
+  .contact-content_wrapper .checkbox_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 25px 0;
+    width: 100%; }
+  .contact-content_wrapper .textarea {
+    width: 100%; }
+  .contact-content_wrapper .nombres {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 15px 0; }
+  .contact-content_wrapper .datos {
+    display: flex;
+    flex-direction: row; }
+
+@media screen and (max-width: 991px) {
+  .nombres {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 15px 0; }
+  .datos {
+    display: flex;
+    flex-direction: column; } }
