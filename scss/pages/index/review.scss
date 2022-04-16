@@ -21,7 +21,7 @@
             justify-content: center;
             .review-card_item {
                 align-items: stretch;
-                background-color: $bg-color-alternative;
+                background-color: map-get($map: $paleta, $key: "bg-color-alternative");
                 border-radius: 40px;
                 display: flex;
                 flex-direction: column;
@@ -75,7 +75,7 @@
                 justify-content: center;
                 .review-card_item {
                     align-items: stretch;
-                    background-color: var(--bg-color-alternative);
+                    background-color: map-get($map: $paleta, $key: "bg-color-alternative");
                     border-radius: 40px;
                     display: flex;
                     flex-direction: column;
@@ -130,7 +130,7 @@
                 justify-content: center;
                 .review-card_item {
                     align-items: stretch;
-                    background-color: $bg-color-alternative;
+                    background-color: map-get($map: $paleta, $key: "bg-color-alternative");
                     border-radius: 40px;
                     display: flex;
                     flex-direction: column;

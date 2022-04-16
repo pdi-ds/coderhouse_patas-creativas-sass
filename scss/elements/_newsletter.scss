@@ -21,7 +21,7 @@
         flex-direction: column;
         justify-content: center;
         .newsletter-form_item {
-            background-color: $bg-color-alternative;
+            background-color: map-get($map: $paleta, $key: "bg-color-alternative");
             border-radius: 500px;
             border-width: 0px;
             display: inline-flex;
@@ -54,7 +54,7 @@
             flex-direction: column;
             justify-content: center;
             .newsletter-form_item {
-                background-color: $bg-color-alternative;
+                background-color: map-get($map: $paleta, $key: "bg-color-alternative");
                 border-radius: 500px;
                 border-width: 0px;
                 display: inline-flex;
@@ -88,7 +88,7 @@
             flex-direction: column;
             justify-content: center;
             .newsletter-form_item {
-                background-color: $bg-color-alternative;
+                background-color: map-get($map: $paleta, $key: "bg-color-alternative");
                 border-radius: 500px;
                 border-width: 0px;
                 display: inline-flex;
