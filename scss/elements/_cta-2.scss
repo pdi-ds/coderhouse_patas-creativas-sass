@@ -1,15 +1,16 @@
 .cta-2 {
+    @extend .button;
     border: solid;
-    border-color: $bg-color-alternative;
+    border-color: map-get($map: $paleta, $key: "bg-color-alternative");
     border-radius: 500px;
     border-width: 1px;
-    color: $text-color;
+    color: map-get($map: $paleta, $key: "text-color");
     display: inline-block;
     padding: 10px 25px 10px 25px;
     text-align: center;
     &:hover {
-        background-color: $text-color;
-        color: $bg-color;
+        background-color: map-get($map: $paleta, $key: "text-color");
+        color: map-get($map: $paleta, $key: "bg-color");
         transition: background-color 0.5s;
         transition: color 0.5s;
         -webkit-animation: shadow-drop-center 0.4s ease-in-out both;
