@@ -1,114 +1,114 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
     h1 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 84px;
         font-weight: 300;
     }
     
     h2 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 67px;
         font-weight: 300;
     }
     
     h3 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 54px;
         font-weight: 400;
     }
     
     h5 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 34px;
         font-weight: 600;
     }
     
     .false-h5 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 34px;
         font-weight: 600;
     }
     
     h6 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 28;
         font-weight: 700;
     }
     
     h1 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 84px;
         font-weight: 300;
     }
     
     h2 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 67px;
         font-weight: 300;
     }
     
     h3 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 54px;
         font-weight: 400;
     }
     
     h5 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 34px;
         font-weight: 600;
     }
     
     .false-h5 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 34px;
         font-weight: 600;
     }
     
     h6 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 28;
         font-weight: 700;
     }
     
     .subtitle1 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 22px;
         font-weight: 600;
     }
     
     .body1 {
-        color: $text-color-alternative;
+        color: map-get($map: $paleta, $key: "text-color-alternative");
         font-size: 22px;
         font-weight: 400;
     }
     
     .subtitle2 {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 18px;
         font-weight: 400;
     }
     
     .body2 {
-        color: $text-color-alternative;
+        color: map-get($map: $paleta, $key: "text-color-alternative");
         font-size: 18px;
         font-weight: 400;
     }
     
     .button {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 18px;
         font-weight: 600;
     }
     
     .caption {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 14px;
         font-weight: 400;
     }
     
     .overline {
-        color: $text-color;
+        color: map-get($map: $paleta, $key: "text-color");
         font-size: 11px;
         font-weight: 400;
     }
@@ -117,79 +117,65 @@
     @media screen and (max-width: 767px) {
         /* Font system */
         h1 {
-            color: $text-color;
             font-size: 32px;
             font-weight: 300;
             margin: 15px 0 40px 0;
         }
         h2 {
-            color: $text-color;
             font-size: 29px;
             font-weight: 300;
             margin: 15px 0 40px 0;
         }
         h3 {
-            color: $text-color;
             font-size: 26px;
             font-weight: 400;
             margin: 15px 0 40px 0;
         }
         h4 {
-            color: $text-color;
             font-size: 23px;
             font-weight: 400;
             margin: 15px 0 40px 0;
         }
         h5 {
-            color: $text-color;
             font-size: 20px;
             font-weight: 600;
             margin: 15px 0 40px 0;
         }
         .false-h5 {
-            color: $text-color;
             font-size: 20px;
             font-weight: 600;
             margin: 15px 0 40px 0;
         }
         h6 {
-            color: $text-color;
             font-size: 18px;
             font-weight: 700;
             margin: 15px 0 40px 0;
         }
         .subtitle1 {
-            color: $text-color;
             font-size: 16px;
             font-weight: 600;
         }
         .body1 {
-            color: $text-color-alternative;
             font-size: 16px;
             font-weight: 400;
         }
         .subtitle2 {
-            color: $text-color;
             font-size: 14px;
             font-weight: 600;
         }
         .body2 {
-            color: $text-color-alternative;
             font-size: 14px;
             font-weight: 400;
         }
         .button {
-            color: $text-color;
             font-size: 14px;
             font-weight: 600;
         }
         .caption {
-            color: $text-color;
             font-size: 13px;
             font-weight: 400;
         }
         .overline {
-            color: $text-color;
             font-size: 11px;
             font-weight: 400;
         }
